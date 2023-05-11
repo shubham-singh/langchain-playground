@@ -1,0 +1,26 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "rm -rf ./build && tsc && node ./build/index.js"
+  },
+  "author": "shubhamsng7@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^20.1.0",
+    "@types/readline-sync": "^1.4.4",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.5",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.71",
+    "pdf-parse": "^1.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
